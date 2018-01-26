@@ -52,8 +52,6 @@ RUN wget -O fuseki-$VERSION.tar.gz $ARCHIVE_SITE/$FUSEK_FILE || \
     cd $FUSEKI_HOME && rm -rf *.war *.bat && \
     cd $JENA_HOME && rm -rf *javadoc* *src* bat
 
-RUN riot  --version
-
 WORKDIR $FUSEKI_HOME
 
 
