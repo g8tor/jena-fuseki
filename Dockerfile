@@ -1,7 +1,7 @@
 # Extend from Alpine open-jdk
 FROM openjdk:8-jre-alpine3.7
 
-# Set MAintainer
+# Set Maintainer
 LABEL authors="Vernon Chapman <g8tor692@gmail.com>"
 
 # Set to latest version on https://jena.apache.org/download/
