@@ -19,7 +19,7 @@ ENV PATH $PATH:$JENA_HOME/bin
 
 # Set Fuseki Server vars
 ENV FUSEKI_HOME /opt/fuseki
-ENV FUSEKI_BASE: $FUSEKI_HOME/run
+ENV FUSEKI_BASE $FUSEKI_HOME/run
 ENV FUSEK_FILE apache-jena-fuseki-$VERSION.tar.gz
 
 # Change based on MD5 on https://jena.apache.org/download/
